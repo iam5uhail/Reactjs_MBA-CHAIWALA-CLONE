@@ -1,0 +1,36 @@
+.section{
+    padding-top: 15rem;
+}
+.section .div{
+    max-width: 48rem;
+    height: 120vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.section .div h3{
+    width: 80%;
+    font: 300 54px var(--heading);
+}
+.section .div p{
+    font-size: 19px;
+    font-family: var(--text);
+    line-height: 1.9;
+}
+.section .div button{
+    font: 600 14px var(--text);
+    padding: 0.9rem 1.25rem;
+    border: none;
+    transform-origin: bottom;
+    transition: transform 0.5s;
+    letter-spacing: 2px;
+    border-radius: 9px;
+}
+.section .div button:hover{
+    transform: skewX(-10deg);
+    cursor: pointer;
+}
+

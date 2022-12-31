@@ -1,0 +1,73 @@
+footer{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--yellow);
+    position: fixed;
+    bottom: 0%;
+    z-index: -1;
+    padding: 13rem 6rem;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.footer{
+    width: 100%;
+    height: 100vh;
+    background-color:transparent;
+    z-index: -2;
+    position: absolute;
+}
+footer h1{
+    color: var(--pink);
+    font: italic 800 62px var(--text);
+}
+footer aside{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+footer aside a{
+    color: var(--pink);
+    text-transform: uppercase;
+    font:500 14px var(--text);
+    text-decoration: none;
+    letter-spacing: 3px;
+    line-height: 1.9;
+    transition: all 0.5s;
+}
+footer div{
+    color: var(--pink);
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+}
+footer div:last-of-type{
+    align-items: flex-end;
+}
+footer div h5{
+    font: 500 22px var(--text);
+    line-height: 1.2;
+    margin: 1rem 0;
+}
+footer div a{
+    text-decoration: none;
+    font-family: var(--text);
+    color: var(--pink);
+}
+footer p{
+    font:500 12px var(--text);
+    color:var(--pink);
+    letter-spacing: 3px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+footer p span{
+    color: blue;
+}
+
+
+
